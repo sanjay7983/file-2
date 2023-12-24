@@ -1,0 +1,558 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    border: 2px solid black;
+    background-color: #000000;
+    z-index: 9999;   
+}
+
+.logo  {
+    cursor: pointer;
+    width: 100PX;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    border: 1px solid white;
+    background-color: white;    
+}
+nav ul li a {
+    text-decoration: none;  
+    color: black; 
+}
+nav ul li a:hover{
+    background-color: red;
+    color: wheat;
+    border-color: red;
+}
+.headerba{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.75)),url(back.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+  
+.bockground{
+    background-image: url(sanjayk.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 447px;
+    width: 337px;
+    position: absolute;
+    left: 140vh;
+    top: 120px;
+}
+.bockground:hover {
+    filter: grayscale(0);
+    transform: scale(1.2) 
+}
+
+.pre{
+    display: inline-block;
+    justify-content: left;
+    padding: 10px 0px;
+
+}
+.name{
+    font-size: 80px;
+    position: absolute;
+    left: 10%;
+    text-transform: uppercase;
+    top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.pra{
+    font-size: 20px;
+    margin:  0px 0px 0px 60px ;
+    margin-top:15rem;
+    padding-left: 6rem;
+    color: white;
+
+}
+
+.button{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    background-color: #9a9797;
+    font-size: 15px;
+    
+    height: 10px;
+    font-size: 20px;
+    
+}
+button{
+  height: 45px;
+  width: 120px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.button :hover{
+    background-color:  red;
+    color: white;
+}
+
+.bosy{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem;
+    padding-top: 20%;
+}
+h1{
+    font-size: 50px;
+}
+
+.pragra{
+    font-size: 17px;
+    padding-top: 10%;
+}
+.lixe{
+    display: inline-block;
+    align-items: end;
+    flex-direction: column;
+    padding-top: 20%;   
+}
+.sahh{
+    padding-top: 20%;
+}
+
+.sahh :hover{
+    background-color:  red;
+    color: white;
+}
+
+#img{
+    width:35%;
+    height: 65%;
+    box-shadow: -22px -19px 5px 4px rgba(51,0,255,1);
+}
+h2{
+    display: flex;
+    justify-content: right;
+    width: 80%;
+    font-size: 45px;
+    position: absolute;
+    right: 36%;
+    top: 110%
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.bco{
+    height: 50vh;
+    background-color:rgb(243, 247, 251);
+    width: 90%;
+    padding: 100px 60px ;
+
+}
+
+.divre{
+    font-size: 15;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.web{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    padding: 10rem 100px;
+    
+  }
+
+.picture{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}  
+.pic1{
+    height: 551px;
+    width: 363px;
+    
+}
+
+.pic2{
+    height: 551px;
+    width: 363px;
+}
+
+.pic3{
+    height: 551px;
+    width: 363px;
+}
+
+.pic4{
+    height: 551px;
+    width: 363px;
+}
+
+.pic5{
+    height: 551px;
+    width: 363px;
+}
+.pic6{
+    height: 551px;
+    width: 363px;
+}
+
+.conten{
+    background-color: #9a9797;
+    height: 30vh;
+    width: 99.7%;
+    margin-top: 25px;
+}
+.reds{
+    position: relative;
+    display: flex;
+    gap: 200px;
+}
+.conten{
+    position: absolute;
+    left: 0.1px;
+    right: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.sierver{
+    margin-top: 8rem;
+    padding-top: 8rem;
+    margin-left: 50px;
+}
+
+.preea{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.donter{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0px 40px;   
+}
+
+#box1{
+    position: fixed;
+    background-color: white;
+    height: 405px;
+    width: 377px;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+}
+
+
+.donter :hover{
+    transform: translateY(20px);
+ }    
+
+.sanjay1{
+    position: absolute;
+    top: 13rem;
+    left: 20%;
+}
+
+#box2{
+    background-color: white;
+    height: 405px;
+    width: 377px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.sanjay2{
+    position: absolute;
+    top: 13rem;
+    left: 21%;
+    
+}
+
+#box3{
+    background-color: white;
+    height: 405px;
+    width: 377px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.sanjay3{
+    position: absolute;
+    top: 13rem;
+    left: 21%;
+}
+
+#box4{
+    background-color: white;
+    height: 405px;
+    width: 377px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.sanjay4{
+    position: absolute;
+    top: 13rem;
+    left: 21%;
+}
+#box5{
+    background-color: white;
+    height: 405px;
+    width: 377px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.sanjay5{
+    position: absolute;
+    top: 13rem;
+    left: 21%;
+}
+#box6{
+    background-color: white;
+    height: 405px;
+    width: 377px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.sanjay6{
+    position: absolute;
+    top: 13rem;
+    left: 21%;
+}
+
+
+.hers{
+    padding: 30px 50px;
+    margin-top: 30px;
+}
+.siee{
+    font-size: 19px;
+    margin-top: 80px;
+    padding: 50px 80px;
+    border: 0.1 solid rgb(218, 0, 0);
+    height: 50px;
+    align-items: center;
+    width: 89%;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+
+.picher{
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+}
+.herep{
+    max-width: 6rem;
+    height: 00%;
+    border-radius: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius:50px;
+    border-top-left-radius: 50px;
+    border: 10px solid var(--helper-tint);
+    margin: 40px 15rem ;
+}
+
+.herep{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.enet{
+    padding-right: 100px;
+    margin: 80px 90px;
+    font-size: 20px;
+}
+
+.fler{
+    position: relative;
+    right: 8rempx;
+    left: 0px;
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    opacity: 0.7;
+    padding: 180px 0px;
+    
+}  
+  
+.baer{
+    position: absolute;
+    background-image: url(https://abhisheknoob.github.io/portfolio/images/portfolio1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    top: 50px;
+    left:0px;
+    right: 0px;
+}
+
+#row{
+    font-size: 20px;
+    padding-top: 20px; 
+    color: black; 
+}
+.am{
+    margin-top: 80px;
+    color: black;
+}
+
+
+.di{
+    padding: 100px 90px ;
+}
+
+.idrer{
+    display: flex;
+    justify-content: center;
+    padding: 2PX 10px;
+    gap: 30px;
+   
+}
+
+ input{
+    padding: 5PX 10px;
+    border: 0.2 solid black;
+    border-radius: 7px;
+    height: 1rem;
+    width: 15rem;
+    font-size: 9px;
+}
+
+.iderss input{
+    
+    padding: 0px 1rem;
+    margin: 10px 23.9rem;
+    height: 30px;
+    text-align: left;
+    width: 32.9rem;
+}
+
+.dor{
+    display: flex;
+    justify-content: center;
+    page-break-after: 10px 80px;
+    border-radius: 5px;
+}
+
+.sume{
+    margin: 35px 23.6rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 12rem;
+}
+
+footer{
+    background-color: rgb(0, 0, 72);
+    height: auto;
+    width: 89%;
+    gap: 120px;
+    position: absolute;
+    right: 50rem;
+    left: 0px;
+    padding: 40px 100px;
+}
+
+.fotd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20rem;
+    color: #c7c2c2;
+}
+.drije{
+    display: flex;
+    padding: 20px 50px ;
+    justify-content: space-between ;
+    gap: 30px;
+}
+
+.dira{
+    display: block;
+    color: #c7c2c2;
+    margin: 10px 0px;
+
+}
+.sher{
+    color: #c7c2c2;
+    gap: 50px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.dire{
+    display: block;
+}
+
+
+.siere{
+    color: #c7c2c2; 
+}
+
+.seir{
+    color: #c7c2c2;
+    text-align: left;
+    flex-direction: column;
+    padding: 20px 50px;
+    font-size: 19px;
+}
